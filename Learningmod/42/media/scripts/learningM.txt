@@ -6,9 +6,9 @@ module Base
         DisplayName                             = Mystical Crowbar,
         Icon                                    = MysticalCrowbar,
         DisplayCategory                      	= ToolWeapon,
-        ItemType                                = base:weapon,
+        ItemType                                = base:Bigweapon,
         Weight 					= 2.0,
-	WeaponSprite				= Mystical.testZom,
+	WeaponSprite				= Mystical.MysticalCrowTest,
         AttachmentType                          = BigBlade,
         BaseSpeed                               = 1.8,
 
@@ -46,7 +46,7 @@ module Base
         BreakSound                              = MysticHit,
         HitFloorSound                           = MysticHit,
         HitSound                                = MysticHit,
-	WorldStaticModel      			= Mystical.testZom,
+	WorldStaticModel      			= Mystical.MysticalCrowTest,
         Tags 					= base;Write;base:GreenPen;base:RedPen,
     }
 }

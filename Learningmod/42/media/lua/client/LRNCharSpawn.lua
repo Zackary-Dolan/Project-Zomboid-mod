@@ -17,4 +17,4 @@ local function giveItems()
 end
 
 Events.OnGameStart.Add(info);
--- Events.OnGameStart.Add(giveItems);
+Events.OnGameStart.Add(giveItems);
