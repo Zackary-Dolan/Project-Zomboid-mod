@@ -5,7 +5,7 @@ module Base
         category = Item,
         clip
         {
-            file=media/sounds/MysticalTrumpet.ogg,
+            file=media/sounds/MysticalHit.ogg,
         }
     }
     sound MysticBreak
@@ -13,7 +13,7 @@ module Base
         category = Item,
         clip
         {
-            file=media/sounds/MysticalTrumpet.ogg,
+            file=media/sounds/MysticalBreak.ogg,
         }
     }
 }

@@ -3,15 +3,14 @@ module Base
     
     item Mystical
     {
-        DisplayName                             = Mystical Crowbar,
+        DisplayName                             = Zweihander,
         Icon                                    = MysticalCrowbar,
         DisplayCategory                      	= ToolWeapon,
-        ItemType                                = base:Bigweapon,
+        ItemType                                = base:weapon,
         Weight 					= 2.0,
 	WeaponSprite				= Mystical.MysticalCrowTest,
         AttachmentType                          = BigBlade,
         BaseSpeed                               = 1.8,
-
         Categories 				= base:blunt,
         ConditionLowerChanceOneIn   		= 70,
         ConditionMax                            = 15,
@@ -37,7 +36,7 @@ module Base
         SubCategory                             = Swinging,
         SwingAmountBeforeImpact         	= 0.02,
         SwingAnim                               = Bat,
-        SwingSound                              = CrowbarSwing,
+        SwingSound                              = SledgehammerSwing,
         Swingtime                               = 2.0,
         TreeDamage                              = 0,
         TwoHandWeapon                           = true,
