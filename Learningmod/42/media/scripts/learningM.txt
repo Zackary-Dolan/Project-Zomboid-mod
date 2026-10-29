@@ -1,0 +1,52 @@
+module Base
+{
+    
+    item Mystical
+    {
+        DisplayName                             = Mystical Crowbar,
+        Icon                                    = MysticalCrowbar,
+        DisplayCategory                      	= ToolWeapon,
+        ItemType                                = base:weapon,
+        Weight 					= 2.0,
+	WeaponSprite				= Mystical.testZom,
+        AttachmentType                          = BigBlade,
+        BaseSpeed                               = 1.8,
+
+        Categories 				= base:blunt,
+        ConditionLowerChanceOneIn   		= 70,
+        ConditionMax                            = 15,
+        CritDmgMultiplier                       = 2.5,
+        CriticalChance                          = 60.0,
+        DoorDamage                              = 8,
+
+        DropSound                               = CrowbarDrop,
+        HitAngleMod                             = -30.0,
+
+        KnockBackOnNoDeath                	= true,
+        KnockdownMod                            = 0.0,
+        MaxDamage                               = 2.1,
+        MaxHitcount                             = 3,
+        MaxRange                                = 1.25,
+        MetalValue                              = 150.0,
+        MinAngle                                = 0.75,
+        MinDamage                               = 1.2,
+        MinRange                                = 0.61,
+        MinimumSwingtime                      	= 3.0,
+        PushBackMod                             = 0.5,
+        RunAnim                                 = Run_Weapon2,
+        SubCategory                             = Swinging,
+        SwingAmountBeforeImpact         	= 0.02,
+        SwingAnim                               = Bat,
+        SwingSound                              = CrowbarSwing,
+        Swingtime                               = 2.0,
+        TreeDamage                              = 0,
+        TwoHandWeapon                           = true,
+        WeaponLength                            = 0.4,
+        DoorHitSound                            = MysticHit,
+        BreakSound                              = MysticHit,
+        HitFloorSound                           = MysticHit,
+        HitSound                                = MysticHit,
+	WorldStaticModel      			= Mystical.testZom,
+        Tags 					= base;Write;base:GreenPen;base:RedPen,
+    }
+}

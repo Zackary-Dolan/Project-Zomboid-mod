@@ -1,0 +1,7 @@
+module Mystical {
+    model testZom{
+        mesh = base.Crowbar,
+        texture = MysticalTexture,
+        scale = 0.1,
+    }
+}
