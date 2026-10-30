@@ -1,0 +1,7 @@
+module Mystical {
+    model MysticalCrowTest{
+        mesh = MysticalCrowTest,
+        texture = MysticalTest,
+        scale = .005,
+    }
+}
