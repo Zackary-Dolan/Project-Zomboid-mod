@@ -1,0 +1,19 @@
+module Base
+{
+    sound MysticHit
+    {
+        category = Item,
+        clip
+        {
+            file=media/sounds/MysticHit.ogg,
+        }
+    }
+    sound MysticBreak
+    {
+        category = Item,
+        clip
+        {
+            file=media/sounds/MysticHit.ogg,
+        }
+    }
+}

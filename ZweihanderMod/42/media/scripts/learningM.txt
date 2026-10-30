@@ -1,0 +1,53 @@
+module Base
+{
+    
+    item Mystical
+    {
+        DisplayName                             = Zweihander,
+        Icon                                    = MysticalCrowbar,
+        DisplayCategory                      	= ToolWeapon,
+        ItemType                                = base:weapon,
+        Weight 					= 3.2,
+	WeaponSprite				= Mystical.MysticalCrowTest,
+        AttachmentType                          = BigBlade,
+        BaseSpeed                               = 1.8,
+        Categories 				= base:longblade,
+        ConditionLowerChanceOneIn   		= 55,
+        ConditionMax                            = 15,
+        CritDmgMultiplier                       = 2.0,
+        CriticalChance                          = 60.0,
+        DoorDamage                              = 8,
+	DamageCategory 				= Slash,
+        DropSound                               = CrowbarDrop,
+        HitAngleMod                             = -30.0,
+        KnockBackOnNoDeath                	= true,
+        KnockdownMod                            = 0.0,
+        MaxDamage                               = 7.4,
+        MaxHitcount                             = 5,
+        MaxRange                                = 1.7,
+        MetalValue                              = 150.0,
+        MinAngle                                = 0.75,
+        MinDamage                               = 7.2,
+        MinRange                                = .8,
+        MinimumSwingtime                      	= 3.5,
+        PushBackMod                             = 1.1,
+        RunAnim                                 = Run_Weapon2,
+        SubCategory                             = Swinging,
+
+        SwingAmountBeforeImpact         	= 0.03,
+        SwingAnim                               = Heavy,
+        SwingSound                              = KatanaSwing,
+        Swingtime                               = 3.5,
+        TreeDamage                              = 20,
+        TwoHandWeapon                           = true,
+        WeaponLength                            = 0.7,
+	Sharpness 				= 1.0,
+
+        DoorHitSound                            = KatanaHit,
+        BreakSound                              = MysticHit,
+        HitFloorSound                           = KatanaHit,
+        HitSound                                = KatanaHit,
+
+        Tags 					= base;Write;base:GreenPen;base;ignorezombiedensity;basefullblade,
+    }
+}
